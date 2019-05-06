@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apple Tours</title>
+</head>
+
+<style>
+.class1{
+	
+	border-color: blue;
+	border-style: dashed;
+	color: blue;
+
+}
+</style>
+
+<body>
+<div id="main">
+<h1>Hello <span id="there">there</span></h1>
+<p>We provide the tours to these countries:</p>
+<ul>
+<li>France</li>
+<li>Spain</li>
+<li>Thailand</li>
+</ul>
+<a href="book.html" class="special">
+<button type="button">Book Tour</button>
+</a>
+</div>
+
+<script>
+var tags = document.querySelector("#there");
+tags.classList.toggle("class1");
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+	<!--Task 1(a)i-->
+	   var x = document.querySelectorAll("li");
+	   for(var i = 0; i<x.length; i++){
+	     console.log(x[i].textContent);
+	   }
+		
+	<!--Task 1(a)ii-->
+	   var i=document.querySelector(".special", "a").onmouseover = function() {myFunction()};
+       function myFunction(){
+          alert("Book a tour");
+       }
+	  
+	<!--Task 1(a)iii-->
+	   var y=document.querySelector("#there");
+	   y.classList.toggle("style-class");
+
+-------------------------------------------------------------------
+	<!--Task 1(a)i-->
+	   var x = $("li");
+	   for(var i = 0; i<x.length; i++){
+	     console.log(x[i].textContent);
+	   }
+		
+	<!--Task 1(a)ii-->
+	   $("button").mouseover(function(){
+         alert("Book a tour");
+       });
+	  
+	<!--Task 1(a)iii-->
+	   $("#there").toggleClass("style-class");
